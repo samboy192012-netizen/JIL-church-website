@@ -1,0 +1,82 @@
+
+<header class="header">
+  <img src="https://i.postimg.cc/Wb640JM4/Untitled172-20261021204113.png" alt="JIL Church Logo">
+  <h2>JESUS IS LORD CHURCH</h2>
+  <p>Growing Together in Faith 💙</p>
+</header>
+
+<section class="hero">
+  <h1>WELCOME TO OUR CHURCH FAMILY</h1>
+  <p>One family united in God's love.</p>
+  <button id="joinBtn">💙 JOIN OUR CHURCH FAMILY</button>
+</section>
+
+<main class="gallery">
+  <article class="photo-card">
+    <img src="https://i.postimg.cc/K82M225J/Messenger-creation-2743285029351336.jpg" alt="Church gathering">
+    <h3>Worship Together</h3>
+    <p>We gather to praise God, strengthen our faith, and thank Him for His love.</p>
+  </article>
+
+  <article class="photo-card">
+    <img src="https://i.postimg.cc/TPTYk2JN/Messenger-creation-1572393434122344.jpg" alt="Church fellowship">
+    <h3>Faith and Friendship</h3>
+    <p>Church helps us build friendships with people who encourage us to follow God.</p>
+  </article>
+
+  <article class="photo-card">
+    <img src="https://i.postimg.cc/5NF0yR0V/received-617264958081565.jpg" alt="Church community">
+    <h3>United in Christ</h3>
+    <p>We support one another and remember that we are never alone in our faith.</p>
+  </article>
+
+  <article class="photo-card">
+    <img src="https://i.postimg.cc/C5RKjvsn/Screenshot-20251118-162950.jpg" alt="Church memories">
+    <h3>Growing in God's Word</h3>
+    <p>Listening to God's Word helps us learn, grow, and live with kindness.</p>
+  </article>
+
+  <article class="photo-card">
+    <img src="https://i.postimg.cc/N0xLY20L/received-1077658474911616.jpg" alt="Church family">
+    <h3>A Family of Faith</h3>
+    <p>We share joyful memories and encourage our friends to grow closer to God.</p>
+  </article>
+</main>
+
+<section class="join-section">
+  <h2>YOU ARE WELCOME HERE 💙</h2>
+  <p>Be part of our church family and share your story!</p>
+  <button id="joinBtnBottom">JOIN US ✨</button>
+</section>
+
+<div id="joinPopup" class="popup">
+  <div class="popup-card">
+    <button id="closeJoin" class="close-btn" aria-label="Close">×</button>
+    <h2>Join Our Church Family 💙</h2>
+    <p>Share a memory from your church journey.</p>
+
+    <form id="joinForm">
+      <label for="visitorName">Your name</label>
+      <input id="visitorName" type="text" placeholder="Your name" required>
+
+      <label for="visitorPhoto">Choose a photo</label>
+      <input id="visitorPhoto" type="file" accept="image/*" required>
+      <img id="photoPreview" alt="Photo preview">
+
+      <label for="visitorMessage">Your story</label>
+      <textarea id="visitorMessage" rows="5" placeholder="Write your church story..." required></textarea>
+
+      <label class="consent">
+        <input id="shareConsent" type="checkbox" required>
+        I have permission to share this photo and story.
+      </label>
+
+      <button type="submit">SEND MY STORY 💙</button>
+      <p id="joinStatus" role="status"></p>
+    </form>
+  </div>
+</div>
+
+<footer>
+  <p>Jesus Is Lord 💙 All for God's glory.</p>
+</footer>
